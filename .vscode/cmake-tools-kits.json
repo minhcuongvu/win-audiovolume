@@ -1,0 +1,28 @@
+[
+  {
+    "name": "MinGW Makefiles - Debug",
+    "generator": "MinGW Makefiles",
+    "buildType": "Debug",
+    "toolchainFile": "",
+    "cmakeExecutable": "cmake",
+    "cmakePath": "",
+    "overrides": {
+      "CMAKE_SH": "CMAKE_SH-NOTFOUND",
+      "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
+      "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe"
+    }
+  },
+  {
+    "name": "MinGW Makefiles - Release",
+    "generator": "MinGW Makefiles",
+    "buildType": "Release",
+    "toolchainFile": "",
+    "cmakeExecutable": "cmake",
+    "cmakePath": "",
+    "overrides": {
+      "CMAKE_SH": "CMAKE_SH-NOTFOUND",
+      "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
+      "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe"
+    }
+  }
+]
