@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/includes",
+                "${workspaceFolder}/includes/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -13,8 +14,8 @@
             ],
             "windowsSdkVersion": "10.0.22000.0",
             "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
             "intelliSenseMode": "windows-gcc-x64",
             "configurationProvider": "ms-vscode.cpptools"
         }
